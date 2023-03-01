@@ -1,0 +1,87 @@
+.mywoo-comp-category-sale{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 120%;
+	text-align: center;
+	color: #EC9733;
+	border: 1px solid #EC9733;
+	box-sizing: border-box;
+	border-radius: 2px;
+	padding: 6px;
+	position: absolute;
+	margin-bottom: 0;
+	top: 10px;
+	left: 12%;
+}
+.mywoo-landong-computers-page-category{
+	transition: 0.3s;
+	border: 1px solid transparent;
+	flex-basis: 33%;
+	margin-bottom: 35px;
+}
+.mywoo-landong-computers-page-category:hover{
+	transition: 0.3s;
+	background: #1A1A1A;
+	border: 1px solid #292929;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.mywoo-page-title{
+	line-height: 120%;
+}
+.mywoo-landong-computers-page{
+	margin-top: 50px;
+}
+.mywoo-subcatedories-img{
+	
+	background: url("/wp-content/uploads/page-computers-svet.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	
+	border: none;
+	position: relative;
+}
+
+.mywoo-subcatedories-title, .mywoo-subcatedories-desc{
+	background: none;
+}
+.mywoo-subcatedories-title h3 a{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 120%;
+	text-align: center;
+	color: #cbcbcb;
+}
+.mywoo-subcatedories-title{
+	padding: 10px 36px 10px 36px;
+}
+.bm-peref-subcategories-link__title{
+	text-align: center;
+}
+.mywoo-subcatedories-desc__text{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 120%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+	.mywoo-landong-computers-page-category{
+		transition: 0.3s;
+		border: 1px solid transparent;
+		flex-basis: 50%;
+	}	
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.mywoo-landong-computers-page-category{
+		transition: 0.3s;
+		border: 1px solid transparent;
+		flex-basis: 33%;
+	}	
+}

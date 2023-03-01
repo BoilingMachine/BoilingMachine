@@ -1,0 +1,78 @@
+@font-face
+	font-family: Arial Rounded MT
+	src: url("/wp-content/themes/boiling_machine/fonts/8665.ttf")
+
+
+.page-404-background
+	background: url("/wp-content/uploads/404-back.png")
+	background-size: cover
+	height: 80vh
+	display: flex
+	justify-content: center
+	align-items: center
+.page-404-title
+	font-family: "Arial Rounded MT" , sans-serif !important;
+	font-size: 80px
+	color: #fff
+	text-align: center
+	font-weight: bold
+	margin-bottom: 5px
+.page-404-block-text
+	margin-bottom: 0
+	font-family: "Arial Rounded MT" , sans-serif !important;
+	font-size: 500px
+	color: #FC2626
+	line-height: 1
+	
+.page-404-block
+	display: flex
+.page-404-text
+	font-size: 42px
+	color: #fff
+	text-align: center
+.page-404
+	color: #fff
+	font-size: 16px
+	& ul
+		padding-bottom: 20px
+		border-bottom: 1px solid #2f2f2f
+	& li
+		margin-bottom: 10px
+.page-404-link
+	display: block
+	width: fit-content
+	background: #fb1b1b
+	padding: 22px 50px
+	color: #fff
+	margin: 30px auto
+	font-size: 20px
+	font-weight: bold
+	border-radius: 5px
+	line-height: 1.2
+	display: flex
+	align-items: center
+	&:hover
+		text-decoration: none
+		color: #fff
+.page-404-link::before
+	content: url("/wp-content/uploads/arrow-back2.png")
+	margin-right: 12px
+	height: 20px
+
+@media screen and (max-width: 576px)
+	.page-404-text
+		font-size: 28px
+	.page-404-background
+		height: 60vh
+	.page-404-block
+		justify-content: center
+	.page-404-block-text
+		font-size: 130px
+	.page-404-block img
+		margin: 0
+		max-width: 40%
+	.page-404-link
+		font-size: 16px
+		padding: 18px 38px
+		line-height: 1
+	

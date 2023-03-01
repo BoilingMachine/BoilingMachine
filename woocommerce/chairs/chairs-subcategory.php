@@ -1,0 +1,1 @@
+<?  require get_template_directory() . '/templates/catalog/section.php';

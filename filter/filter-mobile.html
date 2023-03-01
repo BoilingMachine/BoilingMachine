@@ -1,0 +1,234 @@
+		<div class="bm-main-filters-container">
+			<h2 class="bm-main-filters-container__title">
+				Выбрать компьютер по:
+			</h2>
+		</div>
+		<div class="bm-main-filters-container-mobile">
+			<div class="bm-main-filters-container-mobile-block" id="main-filter-price">
+				<h2 class="bm-main-filters-container-mobile-block__title">
+					Цене
+				</h2>
+			</div>
+			<div class="bm-main-filters-container-mobile-block" id="main-filter-game">
+				<h2 class="bm-main-filters-container-mobile-block__title">
+					Игре
+				</h2>
+			</div>
+			<div class="bm-main-filters-container-mobile-block" id="main-filter-video">
+				<h2 class="bm-main-filters-container-mobile-block__title">
+					Видеокарте
+				</h2>
+			</div>	
+			<div class="bm-main-filters-container-mobile-block" id="main-filter-processor">
+				<h2 class="bm-main-filters-container-mobile-block__title">
+					Процессору
+				</h2>
+			</div>	
+			<div class="bm-main-filters-container-mobile-block" id="main-filter-resolution">
+				<h2 class="bm-main-filters-container-mobile-block__title">
+					Разрешению
+				</h2>
+			</div>	
+			<div class="bm-main-filters-container-mobile-block" id="main-filter-forma">
+				<h2 class="bm-main-filters-container-mobile-block__title">
+					Форм-фактору
+				</h2>
+			</div>				
+		</div>
+		<div class="bm-main-filter-content"></div>
+
+
+
+
+<style>
+
+	.bm-main-filter-price-content{
+		max-width: 100%;
+	}
+	.bm-main-filter-price-content-price{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.bm-main-filter-price-content-price-block{
+		flex-basis: 49%;
+		padding: 20px 28px;
+		text-align: center;
+		margin: 0 0 10px 0;
+	}
+	.bm-main-filter-price-content-price-block__link{
+		font-size: 17px;
+		
+	}
+	.bm-main-filter-game-content-game{
+		max-width: 100%;
+	}
+	.bm-main-filter-game-content-game-block{
+		flex-basis: 49%;
+	}
+	.bm-main-filters-container-mobile-block.active{
+		color: #fff;
+		border: 1px solid #FD0A04;
+	}
+	.bm-main-filters-container-mobile-block.active .bm-main-filters-container-mobile-block__title{
+		color: #fff;
+	}
+	.bm-main-filters-container-mobile-block__title{
+		font-size: 16px;
+		color: #cbcbcb;
+	}
+	.bm-main-filter-price-content__title{
+		font-size: 18px;
+	}
+	.bm-main-filter-game-content-game-block-image img{
+		max-height: 60px;
+	}
+</style>
+
+<script>
+
+$(function(){
+	
+		
+  		$("#main-filter-price").click(function(){			
+			$(this).find("img").attr("src","/wp-content/uploads/filter-price-hover.svg");						
+			
+			$("#main-filter-game").find("img").attr("src","/wp-content/uploads/main-game.svg");
+			$("#main-filter-video").find("img").attr("src","/wp-content/uploads/filter-videocard.svg");
+			$("#main-filter-processor").find("img").attr("src","/wp-content/uploads/filter-proc.svg");
+			$("#main-filter-resolution").find("img").attr("src","/wp-content/uploads/filter-resolution.svg");
+			$("#main-filter-forma").find("img").attr("src","/wp-content/uploads/filter-form-factor.svg");
+			
+			
+			$(".bm-main-filters-container-mobile-block").removeClass("active");
+			$(this).addClass("active");
+		
+			 
+			 $('.bm-main-filter-content').load('/wp-content/themes/boiling_machine/filter/price.html',function(){
+			   $(".bm-main-filter-content").fadeIn(2000);
+			 });							
+	
+		});
+		$("#main-filter-video").click(function(){
+			$(this).find("img").attr("src","/wp-content/uploads/filter-videocard-hover.svg");
+			
+			$("#main-filter-game").find("img").attr("src","/wp-content/uploads/main-game.svg");
+			$("#main-filter-price").find("img").attr("src","/wp-content/uploads/price.svg");
+			$("#main-filter-processor").find("img").attr("src","/wp-content/uploads/filter-proc.svg");
+			$("#main-filter-resolution").find("img").attr("src","/wp-content/uploads/filter-resolution.svg");
+			$("#main-filter-forma").find("img").attr("src","/wp-content/uploads/filter-form-factor.svg");			
+			
+			$(".bm-main-filters-container-mobile-block").removeClass("active");
+			$(this).addClass("active");
+			
+			 
+			 $('.bm-main-filter-content').load('/wp-content/themes/boiling_machine/filter/video.html',function(){
+			   $(".bm-main-filter-content").fadeIn(2000);
+			 });						
+			
+		});		
+		$("#main-filter-game").click(function(){
+			$(this).find("img").attr("src","/wp-content/uploads/filter-game-hover.svg");
+			
+			$("#main-filter-video").find("img").attr("src","/wp-content/uploads/filter-videocard.svg");
+			$("#main-filter-price").find("img").attr("src","/wp-content/uploads/price.svg");
+			$("#main-filter-processor").find("img").attr("src","/wp-content/uploads/filter-proc.svg");
+			$("#main-filter-resolution").find("img").attr("src","/wp-content/uploads/filter-resolution.svg");
+			$("#main-filter-forma").find("img").attr("src","/wp-content/uploads/filter-form-factor.svg");			
+			
+			
+			$(".bm-main-filters-container-mobile-block").removeClass("active");
+			$(this).addClass("active");
+	
+			 
+			 $('.bm-main-filter-content').load('/wp-content/themes/boiling_machine/filter/game.html',function(){
+			   $(".bm-main-filter-content").fadeIn(2000);
+			 });				
+		});		
+		$("#main-filter-processor").click(function(){
+			$(this).find("img").attr("src","/wp-content/uploads/filter-proc-hover.svg");
+			
+			$("#main-filter-video").find("img").attr("src","/wp-content/uploads/filter-videocard.svg");
+			$("#main-filter-price").find("img").attr("src","/wp-content/uploads/price.svg");
+			$("#main-filter-game").find("img").attr("src","/wp-content/uploads/main-game.svg");
+			$("#main-filter-resolution").find("img").attr("src","/wp-content/uploads/filter-resolution.svg");
+			$("#main-filter-forma").find("img").attr("src","/wp-content/uploads/filter-form-factor.svg");			
+			
+			
+			$(".bm-main-filters-container-mobile-block").removeClass("active");
+			$(this).addClass("active");
+				
+			
+			 $('.bm-main-filter-content').load('/wp-content/themes/boiling_machine/filter/processor.html',function(){
+			   $(".bm-main-filter-content").fadeIn(2000);
+			 });			
+			
+		});		
+		$("#main-filter-resolution").click(function(){
+			$(this).find("img").attr("src","/wp-content/uploads/filter-resolution-hover.svg");
+			
+			$("#main-filter-video").find("img").attr("src","/wp-content/uploads/filter-videocard.svg");
+			$("#main-filter-price").find("img").attr("src","/wp-content/uploads/price.svg");
+			$("#main-filter-game").find("img").attr("src","/wp-content/uploads/main-game.svg");
+			$("#main-filter-processor").find("img").attr("src","/wp-content/uploads/filter-proc.svg");
+			$("#main-filter-forma").find("img").attr("src","/wp-content/uploads/filter-form-factor.svg");				
+			
+			
+			$(".bm-main-filters-container-mobile-block").removeClass("active");
+			$(this).addClass("active");
+				
+			
+			 $('.bm-main-filter-content').load('/wp-content/themes/boiling_machine/filter/resolution.html',function(){
+			   $(".bm-main-filter-content").fadeIn(2000);
+			 });			
+		});	
+		$("#main-filter-forma").click(function(){
+			$(this).find("img").attr("src","/wp-content/uploads/filter-form-factor-hover.svg");
+			
+			$("#main-filter-video").find("img").attr("src","/wp-content/uploads/filter-videocard.svg");
+			$("#main-filter-price").find("img").attr("src","/wp-content/uploads/price.svg");
+			$("#main-filter-game").find("img").attr("src","/wp-content/uploads/main-game.svg");
+			$("#main-filter-processor").find("img").attr("src","/wp-content/uploads/filter-proc.svg");
+			$("#main-filter-resolution").find("img").attr("src","/wp-content/uploads/filter-resolution.svg");				
+			
+			$(".bm-main-filters-container-mobile-block").removeClass("active");
+			$(this).addClass("active");
+			
+			
+			 $('.bm-main-filter-content').load('/wp-content/themes/boiling_machine/filter/form.html',function(){
+			   $(".bm-main-filter-content").fadeIn(2000);
+			 });			
+		});			
+	
+	
+	
+	
+	
+});
+</script>
+<style>
+	.bm-main-filters-container-mobile{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.bm-main-filters-container-mobile-block{
+		margin: 0;
+		border: 1px solid #323232;
+		box-sizing: border-box;
+		border-radius: 6px;
+		padding: 12px 0;
+		flex-basis: 48%;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 130%;
+		text-align: center;
+		color: #CBCBCB;
+		margin-bottom: 10px;
+		background: #191919;
+	}
+	.bm-main-filters-container-mobile-block__title{
+		margin: 0;
+	}
+</style>

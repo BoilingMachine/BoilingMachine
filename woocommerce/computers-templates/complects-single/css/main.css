@@ -1,0 +1,1238 @@
+/* Переход на белый фон */
+
+.bm-contacts-breadcrumb a, .woocommerce-breadcrumb a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 130%;
+    color: #333333;
+}
+.woocommerce-breadcrumb a{color: #333333 !important;}
+.active-page{
+    color: #C7C7C7;
+}
+#page{background: #fff;}
+.uk-navbar-nav>li>a{
+    color: #181818;
+}
+
+/* */
+
+
+
+
+
+
+
+
+
+.bm-computer__title{
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    color: #181818;
+    margin: 0;
+}
+.stock-container__text{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;  
+    margin: 0;     
+}
+.bm-computer-price{
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    color: #181818;
+    margin: 0;
+}
+.bm-computer-button{
+    background: #EF2525;
+    border-radius: 10px;
+    padding: 18px 120px 21px 120px;
+    border: unset;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.component-title{
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    color: #FFFFFF; 
+    margin: 0;   
+}
+.component-description{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    color: #CBCBCB;
+    margin: 0;
+}
+.videocard-block{
+    background: #181818;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.change-config{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    color: #E1E1E1;
+    margin: 0;
+}
+.complect-block{
+    background: #181818;
+    border-radius: 15px;
+}
+.complect-image{text-align: center; height: 250px;}
+.complect-image img{max-height: 250px;}
+.complect-title__subtitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #CACACA;    
+}
+.complect-description .component-description{margin-bottom: 0;}
+.section-3{margin-bottom: 20px;}
+.complect-block-section-2{
+    background: #181818;
+    border-radius: 15px;
+}
+.complect-block-section-2-image{text-align: center;}
+.change-complects{margin-top: 20px;}
+
+select{
+    background: #1F1F1F;
+    border: 1px solid #2D2D2D;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    border: unset;
+}
+select option{
+    border: unset;
+}
+
+.image-mobile{display: none;}
+.bm-computer-des p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #181818;
+    margin: 0;
+}
+.bm-computer-des{margin-bottom: 40px;}
+
+.product-sep{
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 30px;
+}
+.product-sep .product-sep-container:first-child{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.more-settings{margin-top: 50px;}
+
+.bm-complect-info-block-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    color: #181818;    
+    margin: 0;
+}
+.single-filter-help-icon{
+    padding: 0;
+    background: unset;
+    border: unset;
+    outline: none;
+    cursor: pointer;
+    width: 20px;
+    margin-left: 15px;
+}
+.bm-complect-info-block-text{
+    display: flex;
+    align-items: center;
+}
+.product-more__price{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: right;
+    color: #181818;
+    margin: 0;    
+}
+.product-sep-container-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.product-sep-container-body__text_t{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #454545;
+    margin: 0;
+}
+.product-sep-container-body{
+    display: grid;
+    grid-template-columns: 70% 27%;
+    grid-gap: 3%;
+    align-items: center;
+}
+#upgradepc{text-align: end;}
+.upgradePc{
+    border: 1px solid #ef2525;
+    border-radius: 5px;
+    padding: 18px;
+    display: block;
+    width: 18px;
+    margin-right: 0;
+    margin-left: auto;
+    background: url(/wp-content/uploads/cart-single-chair-options.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.single-complect-menu{
+    background: #FAFAFA;
+}
+.videocrad-title{
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    line-height: 140%;
+    text-align: center;
+    color: #181818;
+}
+.videocard-why-buy-spisok-header{
+    background: #F5F5F5;
+    padding: 20px 30px;
+}
+.videocard-why-buy-spisok{
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+}
+.spisok-header__text{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    color: #353535;
+    margin: 0;
+}
+.max-1080{max-width: 1080px; margin: 0 auto;}
+.body-info__title{
+    font-style: normal;
+    font-weight: 500;  
+    line-height: 140%;
+    color: #181818;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.spisok-info__text{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #181818;
+    margin: 0;
+}
+.spisok-body-info{
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.videocard-why-buy-spisok-body{
+    padding: 30px 30px 40px 30px;
+}
+.videocard-why-buy-spisok-body .spisok-body-info:last-child{border-bottom: unset; margin-bottom: 0; padding-bottom: 0;}
+.videocard-why-buy-spisok-footer{
+    background: #F5F5F5;
+    padding: 30px 0 40px 0;
+}
+.spisok-footer-title{
+    margin-bottom: 25px;
+}
+.footer-title__text{
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    line-height: 150%;
+    text-align: center;
+    color: #353535;
+}
+.videoobzor-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #EF2525;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    padding: 16px 25px 18px 25px;
+    transition: .3s;
+    border: 1px solid #EF2525;
+    border-radius: 10px;
+}
+.videoobzor-link:hover{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+    background: #EF2525;
+
+}
+.textobzor-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #EF2525;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    padding: 16px 25px 18px 25px;
+    transition: .3s;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+.textobzor-link:hover{
+    text-decoration: none;
+    color: #EF2525;
+    transition: .3s;
+    background: #fff;
+    border: 1px solid #EF2525;
+}
+.settings-title__text{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    color: #181818;
+    margin: 0;   
+}
+.settings-container-title{margin-bottom: 25px; padding: 0 25px;}
+.settings-container-body-element{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.element-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #6E6E6E;
+    margin: 0;
+}
+.element-value{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+    margin: 0;
+}
+.settings-container-body-element{
+    padding: 25px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.settings-container-body .settings-container-body-element:first-child{
+    border-top: 1px solid #EEEEEE;
+}
+.settings-container-block .settings-container-block:last-child{
+    margin-bottom: 0;
+}
+.videoobzor-height iframe{border-radius: 30px;}
+.seo__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #181818;
+    margin: 0;
+}
+.obzor-help-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #686868;
+    margin: 15px auto 0 auto;
+    max-width: 70%;
+
+}
+.single-chair-menu-mobile{
+    background: #1f1f1f;
+    margin-top: 50px;
+}
+.product-mobile-menu-nav{align-items: center;}
+.product-mobile-menu-nav-title{
+    color: #fff;
+    font-size: 20px;
+}
+.mobile{display: none;}
+
+
+.woocommerce-Reviews-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    color: #252525;
+    margin: 0;
+    margin-bottom: 60px;
+}
+.woocommerce-noreviews{
+    background-color: #fff;
+}
+#comments{margin: 0;}
+.comment-respond .comment-reply-title{
+    color: #181818;
+}
+.comment-respond label{color: #181818;}
+.link-add-comment{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    display: block;
+    width: fit-content;
+    padding: 17px 32px 15px 32px;
+    background: #EF2525;
+    border-radius: 6px;
+    margin-left: auto;
+}
+.comm-header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #181818;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.comm-body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #181818;
+    margin: 0;
+}
+.pcf-row{margin-bottom: 25px;}
+.comment-text .description p:last-child{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #181818;    
+}
+.chairs-content-cooment li.review{
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.white{color: #fff;}
+
+.help-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #CBCBCB;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.proizvoditelnost-image{text-align: center; margin-bottom: 60px;}
+.sub_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 10px;
+}
+@media screen and (min-width: 1600px){
+    .single-chair-menu-mobile{display: none;}
+    .videoobzor-height{height: 600px;}
+    .settings-container-block{margin-bottom: 50px;}
+    .settings-title__text{font-size: 22px;}
+    .spisok-footer-obzors{
+        display: flex;
+        justify-content: center;
+        grid-gap: 30px;
+    }
+    .footer-title__text{
+        font-size: 20px;
+    }
+    .spisok-info__text{font-size: 18px;}
+    .body-info__title{font-size: 20px;}
+    .spisok-header__text{font-size: 24px;}
+    .videocrad-title{
+        font-size: 38px;
+    }
+    .videocard-title-container{
+        margin-bottom: 50px;
+    }
+    .section-mg{
+        padding: 50px 0;
+
+    }
+    .why-buy{padding-top: 100px;}
+
+
+
+    .first-screen{margin-bottom: 90px;}
+
+    .complect-block-section-2{
+        display: grid;
+        grid-template-columns: 55% 43%;
+        grid-gap: 2%;
+        padding: 60px;
+    }
+    .section-2{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 66% 32.5%;
+    }
+    .complect-image{margin-bottom: 50px;}
+    .complect-block{
+        padding: 40px;
+    }
+    .section-3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    .change-config{font-size: 16px; margin-bottom: 15px;}
+    .pc-settings{margin-top: 100px;}
+    .videocard-block{
+        padding: 70px;
+    }
+    .component-description{font-size: 18px; margin-bottom: 60px;}
+    .component-title{font-size: 32px; margin-bottom: 25px;}
+    .bm-computer-content{
+        display: grid;
+        grid-template-columns: 60% 35%;
+        grid-gap: 5%;
+    }
+    .bm-single-chairs-picture{
+        display: flex;
+    }
+    .bm-product-thumbnails{
+        flex-basis: 15%;
+    }
+    .carousel-block{
+        flex-basis: 85%;
+    }
+    .first-screen{margin-top: 60px;}
+    .carousel-item{
+        text-align: center;
+    }
+    .list-inline-item{
+        border: 1px solid transparent;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bm-computer__title{
+        font-size: 38px;   
+        margin-bottom: 10px;  
+    }
+    .stock-container__text{
+        font-size: 18px;       
+        margin-bottom: 40px;
+    }
+    .bm-computer-price{font-size: 38px; margin-bottom: 15px;}
+    .bm-computer-settings{
+        margin-bottom: 40px;
+    }
+    .bm-computer-button{font-size: 18px;}
+
+    .videocard-block{
+        display: grid;
+        grid-template-columns: 55% 40%;
+        grid-gap: 5%;
+    }
+
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    .section-blocks {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+        align-items: center;
+    }
+    .videochip-section-blocks {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+        align-items: center;
+    }
+    .videochip__title{font-size: 24px;}
+    .videochip__text{font-size: 18px;}
+    .videochip-block{margin-bottom: 30px;}
+
+
+
+
+
+
+
+
+
+    .single-chair-menu-mobile{display: none;}
+    .videoobzor-height{height: 600px;}
+    .settings-container-block{margin-bottom: 50px;}
+    .settings-title__text{font-size: 22px;}
+    .spisok-footer-obzors{
+        display: flex;
+        justify-content: center;
+        grid-gap: 30px;
+    }
+    .footer-title__text{
+        font-size: 20px;
+    }
+    .spisok-info__text{font-size: 18px;}
+    .body-info__title{font-size: 20px;}
+    .spisok-header__text{font-size: 24px;}
+    .videocrad-title{
+        font-size: 38px;
+    }
+    .videocard-title-container{
+        margin-bottom: 50px;
+    }
+    .section-mg{
+        padding: 50px 0;
+
+    }
+    .why-buy{padding-top: 100px;}
+    .asus-benefits{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+
+
+    .complect-block-section-2{
+        display: grid;
+        grid-template-columns: 55% 43%;
+        grid-gap: 2%;
+        padding: 60px;
+    }
+    .section-2{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 66% 32.5%;
+    }
+    .complect-image{margin-bottom: 50px;}
+    .complect-block{
+        padding: 40px;
+    }
+    .section-3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    .change-config{font-size: 16px; margin-bottom: 15px;}
+    .pc-settings{margin-top: 100px;}
+    .videocard-block{
+        padding: 70px;
+    }
+    .component-description{font-size: 18px; margin-bottom: 60px;}
+    .component-title{font-size: 32px; margin-bottom: 25px;}
+    .bm-computer-content{
+        display: grid;
+        grid-template-columns: 60% 35%;
+        grid-gap: 5%;
+    }
+    .bm-single-chairs-picture{
+        display: flex;
+    }
+    .bm-product-thumbnails{
+        flex-basis: 15%;
+    }
+    .carousel-block{
+        flex-basis: 85%;
+    }
+    .first-screen{margin-top: 60px;}
+    .carousel-item{
+        text-align: center;
+    }
+    .list-inline-item{
+        border: 1px solid transparent;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bm-computer__title{
+        font-size: 38px;   
+        margin-bottom: 10px;  
+    }
+    .stock-container__text{
+        font-size: 18px;       
+        margin-bottom: 40px;
+    }
+    .bm-computer-price{font-size: 38px; margin-bottom: 15px;}
+    .bm-computer-settings{
+        margin-bottom: 40px;
+    }
+    .bm-computer-button{font-size: 18px;}
+
+    .videocard-block{
+        display: grid;
+        grid-template-columns: 55% 40%;
+        grid-gap: 5%;
+    }    
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .mobile{display: block;}
+    .pc{display: none;}
+    .info__title{text-align: center;}
+    .mobile-image{margin: 30px auto; max-width: 80%;}
+    .section-blocks {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 50px;
+        align-items: center;
+    }
+    .videochip-section-blocks {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 50px;
+        align-items: center;
+    }
+    .videochip-section-blocks .blocks-image img{
+        max-width: 80%;
+    }
+    .videochip-section-blocks .blocks-image{
+        text-align: center;
+    }
+    .videochip__title{font-size: 24px; text-align: center;}
+    .videochip__text{font-size: 18px; text-align: center;}
+    .videochip-block{margin-bottom: 30px;}
+    .techology-background,.videoChip-background, .videocard-benefits{
+        padding: 45px 0 !important;
+    }
+
+
+
+
+    .single-complect-menu{
+        display: none;
+    }
+    .seo__text{font-size: 18px;}
+    .videoobzor-height{height: 400px;}
+    .settings-container-block{margin-bottom: 50px;}
+    .settings-title__text{font-size: 20px;}
+    .spisok-footer-obzors{
+        display: flex;
+        justify-content: center;
+        grid-gap: 30px;
+    }
+    .footer-title__text{
+        font-size: 18px;
+    }
+    .spisok-info__text{font-size: 16px;}
+    .body-info__title{font-size: 18px;}
+    .spisok-header__text{font-size: 22px;}
+    .videocrad-title{
+        font-size: 28px;
+    }
+    .videocard-title-container{
+        margin-bottom: 50px;
+    }
+    .section-mg{
+        padding: 50px 0;
+
+    }
+    .why-buy{padding-top: 100px;}
+    .asus-benefits{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    
+    
+    .bm-computer-description{margin-top: 30px;}
+
+
+    .complect-block-section-2{
+        display: grid;
+        grid-template-columns: 55% 43%;
+        grid-gap: 2%;
+        padding: 60px;
+    }
+    .section-2{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 100%;
+    }
+    .complect-image{margin-bottom: 50px;}
+    .complect-block{
+        padding: 40px;
+    }
+    .section-3{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    .change-config{font-size: 16px; margin-bottom: 15px;}
+    .pc-settings{margin-top: 100px;}
+    .videocard-block{
+        padding: 70px;
+    }
+    .component-description{font-size: 18px; margin-bottom: 60px;}
+    .component-title{font-size: 32px; margin-bottom: 25px;}
+    .bm-computer-content{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    .bm-single-chairs-picture{
+        display: flex;
+    }
+    .bm-product-thumbnails{
+        flex-basis: 15%;
+    }
+    .carousel-block{
+        flex-basis: 85%;
+    }
+    .first-screen{margin-top: 60px;}
+    .carousel-item{
+        text-align: center;
+    }
+    .list-inline-item{
+        border: 1px solid transparent;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bm-computer__title{
+        font-size: 32px;   
+        margin-bottom: 10px;  
+    }
+    .stock-container__text{
+        font-size: 18px;       
+        margin-bottom: 40px;
+    }
+    .bm-computer-price{font-size: 32px; margin-bottom: 15px;}
+    .bm-computer-settings{
+        margin-bottom: 40px;
+    }
+    .bm-computer-button{font-size: 18px;}
+
+    .videocard-block{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }      
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+
+    .mobile{display: block;}
+    .pc{display: none;}
+    .info__title{text-align: center;}
+    .mobile-image{margin: 30px auto; max-width: 80%;}
+    .section-blocks {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 50px;
+        align-items: center;
+    }
+    .videochip-section-blocks {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 50px;
+        align-items: center;
+    }
+    .videochip-section-blocks .blocks-image img{
+        max-width: 80%;
+    }
+    .videochip-section-blocks .blocks-image{
+        text-align: center;
+    }
+    .videochip__title{font-size: 24px; text-align: center;}
+    .videochip__text{font-size: 18px; text-align: center;}
+    .videochip-block{margin-bottom: 30px;}
+    .techology-background,.videoChip-background, .videocard-benefits{
+        padding: 45px 0 !important;
+    }
+
+
+
+
+
+
+
+
+
+    .list-inline-item {
+        max-width: 55px;
+        max-height: 55px;
+    }    
+    .bm-product-thumbnails ol {
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        display: flex;
+    }
+    .single-complect-menu{
+        display: none;
+    }
+    .seo__text{font-size: 18px;}
+    .videoobzor-height{height: 300px;}
+    .settings-container-block{margin-bottom: 50px;}
+    .settings-title__text{font-size: 20px;}
+    .spisok-footer-obzors{
+        display: flex;
+        justify-content: center;
+        grid-gap: 30px;
+    }
+    .footer-title__text{
+        font-size: 18px;
+    }
+    .spisok-info__text{font-size: 16px;}
+    .body-info__title{font-size: 18px;}
+    .spisok-header__text{font-size: 22px;}
+    .videocrad-title{
+        font-size: 24px;
+    }
+    .videocard-title-container{
+        margin-bottom: 50px;
+    }
+    .section-mg{
+        padding: 25px 0;
+
+    }
+    .why-buy{padding-top: 50px;}
+    .asus-benefits{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    
+    
+    .bm-computer-description{margin-top: 30px;}
+
+
+    .complect-block-section-2{
+        display: grid;
+        grid-template-columns: 55% 43%;
+        grid-gap: 2%;
+        padding: 60px;
+    }
+    .section-2{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 100%;
+    }
+    .complect-image{margin-bottom: 50px;}
+    .complect-block{
+        padding: 40px;
+    }
+    .section-3{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    .change-config{font-size: 16px; margin-bottom: 15px;}
+    .pc-settings{margin-top: 100px;}
+    .videocard-block{
+        padding: 70px;
+    }
+    .component-description{font-size: 18px; margin-bottom: 60px;}
+    .component-title{font-size: 32px; margin-bottom: 25px;}
+    .bm-computer-content{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    .bm-single-chairs-picture{
+        display: flex;
+        flex-direction: column-reverse;
+        grid-gap: 30px;
+    }
+    .bm-product-thumbnails{
+        flex-basis: 15%;
+    }
+    .carousel-block{
+        flex-basis: 85%;
+    }
+    .first-screen{margin-top: 60px;}
+    .carousel-item{
+        text-align: center;
+    }
+    .list-inline-item{
+        border: 1px solid transparent;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bm-computer__title{
+        font-size: 28px;   
+        margin-bottom: 10px;  
+    }
+    .stock-container__text{
+        font-size: 18px;       
+        margin-bottom: 40px;
+    }
+    .bm-computer-price{font-size: 28px; margin-bottom: 15px;}
+    .bm-computer-settings{
+        margin-bottom: 40px;
+    }
+    .bm-computer-button{font-size: 18px;}
+
+    .videocard-block{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }  
+}
+@media screen and (max-width: 576px){
+    .mobile{display: block;}
+    .pc{display: none;}
+    .info__title{text-align: center;}
+    .mobile-image{margin: 30px auto; max-width: 80%;}
+    .section-blocks {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 50px;
+        align-items: center;
+    }
+    .videochip-section-blocks {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 50px;
+        align-items: center;
+    }
+    .videochip-section-blocks .blocks-image img{
+        max-width: 80%;
+    }
+    .videochip-section-blocks .blocks-image{
+        text-align: center;
+    }
+    .videochip__title{font-size: 24px; text-align: center;}
+    .videochip__text{font-size: 18px; text-align: center;}
+    .videochip-block{margin-bottom: 30px;}
+    .techology-background,.videoChip-background, .videocard-benefits{
+        padding: 45px 0 !important;
+    }
+
+
+
+
+
+
+
+
+
+    .list-inline-item {
+        max-width: 55px;
+        max-height: 55px;
+    }    
+    .bm-product-thumbnails ol {
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 10px;
+        display: flex;
+    }
+    .single-complect-menu{
+        display: none;
+    }
+    .seo__text{font-size: 18px;}
+    .videoobzor-height{height: 300px;}
+    .settings-container-block{margin-bottom: 50px;}
+    .settings-title__text{font-size: 20px;}
+    .spisok-footer-obzors{
+        display: flex;
+        justify-content: center;
+        grid-gap: 30px;
+    }
+    .footer-title__text{
+        font-size: 18px;
+    }
+    .spisok-info__text{font-size: 16px;}
+    .body-info__title{font-size: 18px;}
+    .spisok-header__text{font-size: 22px;}
+    .videocrad-title{
+        font-size: 24px;
+    }
+    .videocard-title-container{
+        margin-bottom: 50px;
+    }
+    .section-mg{
+        padding: 25px 0;
+
+    }
+    .why-buy{padding-top: 50px;}
+    .asus-benefits{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    
+    
+    .bm-computer-description{margin-top: 30px;}
+
+
+    .complect-block-section-2{
+        display: grid;
+        grid-template-columns: 55% 43%;
+        grid-gap: 2%;
+        padding: 60px;
+    }
+    .section-2{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 100%;
+    }
+    .complect-image{margin-bottom: 50px;}
+    .complect-block{
+        padding: 40px;
+    }
+    .section-3{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    .change-config{font-size: 16px; margin-bottom: 15px;}
+    .pc-settings{margin-top: 100px;}
+    .videocard-block{
+        padding: 70px;
+    }
+    .component-description{font-size: 18px; margin-bottom: 60px;}
+    .component-title{font-size: 32px; margin-bottom: 25px;}
+    .bm-computer-content{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    .bm-single-chairs-picture{
+        display: flex;
+        flex-direction: column-reverse;
+        grid-gap: 30px;
+    }
+    .bm-product-thumbnails{
+        flex-basis: 15%;
+    }
+    .carousel-block{
+        flex-basis: 85%;
+    }
+    .first-screen{margin-top: 60px;}
+    .carousel-item{
+        text-align: center;
+    }
+    .list-inline-item{
+        border: 1px solid transparent;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .bm-computer__title{
+        font-size: 28px;   
+        margin-bottom: 10px;  
+    }
+    .stock-container__text{
+        font-size: 18px;       
+        margin-bottom: 40px;
+    }
+    .bm-computer-price{font-size: 28px; margin-bottom: 15px;}
+    .bm-computer-settings{
+        margin-bottom: 40px;
+    }
+    .bm-computer-button{font-size: 18px;}
+
+    .videocard-block{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }  
+}
+
+
+@media screen and (min-width: 992px){
+    .image-mobile{display: none;}
+    .pc-display{display: block;}
+}
+@media screen and (max-width: 992px){
+    .image-mobile{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .pc-display{display: none;}
+}
+
+
+/* Работа с версткой макетов */
+.info__title{
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 0;
+}
+.info__text{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    color: #CBCBCB;       
+    margin: 0;
+}
+.techology-background{
+    background: #000 url(/wp-content/uploads/technology-videocard-back.png);
+    padding: 90px 0;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Видеочип */
+.videoChip-background{
+    background: #000;
+    padding: 90px 0;
+}
+.videochip__title{
+    font-style: normal;
+    font-weight: 600;   
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 0;
+}
+.videochip__text{
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    line-height: 160%;
+    color: #CBCBCB;
+}
+.videochip-container .videochip-block:last-child{margin-bottom: 0;}
+/* */
+
+@media screen and (min-width: 1600px){
+    .videochip-section-blocks{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;    
+        align-items: center;    
+    }
+    .videochip-block{margin-bottom: 35px;}
+    .videochip__text{font-size: 18px;}
+    .videochip__title{font-size: 28px; margin-bottom: 10px;}
+    .info__title{font-size: 28px; margin-bottom: 20px;}
+    .info__text{font-size: 18px;}
+    .section-blocks{
+        display: grid;
+        grid-template-columns: 40% 57%;
+        grid-gap: 3%;
+    }
+}

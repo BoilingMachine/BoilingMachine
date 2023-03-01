@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px){
+	.bm-product-arvhive-container{
+		padding-bottom: 20px;
+		min-height: unset;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+	ul.products .bm-chairs-product-img img{
+		max-height: 260px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	ul.products .bm-chairs-product-img img{
+		max-height: unset;
+	}
+	.bm-product-arvhive-container{padding-bottom: 20px;}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	ul.products .bm-chairs-product-img img{
+		max-height: 349px;
+	}
+}
+.quantity, .woocommerce-variation.single_variation{display: none !important;}
+/*
+.third-slider-categories{
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.chairs-third-category-left, .chairs-third-category-right{
+	color: #000 !important;
+	margin: 0;
+	transform: translateY(-50%) translateY(0%) !important;
+}
+*/

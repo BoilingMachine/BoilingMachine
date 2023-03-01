@@ -1,0 +1,33 @@
+
+.videocard-benefits{
+    background: #000000;
+    padding: 100px 0 70px 0;
+}
+.asus-benefit{text-align: center;}
+.asus-benefit__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #EEEEEE;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.asus-benefit__subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #CBCBCB;
+    margin: 0;
+}
+@media screen and (min-width: 1600px){
+    .asus-benefits{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 70px;
+    }
+}

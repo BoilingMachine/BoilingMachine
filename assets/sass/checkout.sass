@@ -1,0 +1,80 @@
+.mywoo-checkout-fi
+	display: flex
+	justify-content: space-between
+
+.mywoo-checkout-fi .form-row
+	flex-basis: 49% !important
+	position: relative
+	height: fit-content
+	& label
+		position: absolute
+		color: #8B8B8B
+		font-size: 16px
+		top: 30%
+		left: 25px
+		margin-bottom: 0
+		& abbr
+			display: none
+.mywoo-checkout-o .form-row, .mywoo-checkout-tel .form-row, .mywoo-checkout-email .form-row, .mywoo-checkout-city .form-row, .mywoo-checkout-adress .form-row
+	flex-basis: 49% !important
+	position: relative
+	& label
+		position: absolute
+		color: #8B8B8B
+		font-size: 16px
+		top: 30%
+		left: 25px
+		margin-bottom: 0
+		& abbr
+			display: none
+.mywoo-checkout-contacts-form input:focus .mywoo-checkout-contacts-form label
+	top: 10%
+	left: 5%
+	font-size: 12px
+#organisation_private_person, #organisation_company
+	width: auto !important
+.mywoo-checkouy-total
+	padding: 50px
+	border-radius: 2px solid #272727
+.mywoo-checkout-total .woocommerce-Price-amount
+	color: #BDBDBD
+	font-size: 20px
+	font-weight: normal
+#organisation_field .woocommerce-input-wrapper
+	display: flex
+	justify-content: space-between
+.shop_table.woocommerce-checkout-review-order-table
+	border-collapse: collapse
+	& tr
+		border-bottom: 1px solid #5f5f5f3b
+		border-image: linear-gradient(90deg,#121212 1.53%,#383838 53.33%,#121212 100%)
+		border-image-slice: 1
+	& tr.order-total
+		border-bottom: none
+	& .product-name
+		padding: 15px 0
+	& .product-total
+		padding: 15px 0
+#billing_country 
+	width: 100%
+	background: #232323
+	padding: 13px 26px
+	color: #fff
+	border: 0
+
+
+.mywoo-checkout-magaz
+	display: flex
+	justify-content: space-between
+.wc_payment_method img
+	display: none
+@media screen and (max-width: 768px)
+	.mywoo-checkout-magaz
+		flex-direction: column
+	.mywoo-cont-block, .mywoo-dela, .mywoo-spos-oplati
+		padding: 0
+	#order_review
+		margin-top: 40px
+.berocket_single_filter_widget
+	padding: 20px 30px
+	border-bottom: 2px solid #212121

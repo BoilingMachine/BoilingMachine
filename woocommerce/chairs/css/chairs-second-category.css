@@ -1,0 +1,100 @@
+@media screen and (min-width: 576px) and (max-width: 768px){
+	.bm-chairs-subcategories-block-content__attr{
+		flex-direction: column;
+	}
+	.bm-chairs-subcategories-block-content__attr-height, .bm-chairs-subcategories-block-content__attr-wighth{
+		margin-bottom: 10px;
+	}
+	.bm-chairs-subcategories{
+		flex-basis: 50% !important;
+	}
+	.bm-chairs-subcategories-block-content__attr__text{
+		width: auto;
+		justify-content: center;
+	}	
+	.tab-container-head__title{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 130%;
+		color: #252525;
+		margin-bottom: 30px;	
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.bm-chairs-subcategories-block-content__attr{
+		flex-direction: column;
+	}
+	.bm-chairs-subcategories-block-content__attr-height, .bm-chairs-subcategories-block-content__attr-wighth{
+		margin-bottom: 10px;
+	}
+	.bm-chairs-subcategories{
+		flex-basis: 50% !important;
+	}	
+	.bm-chairs-subcategories-block-content__attr__text{
+		width: auto;
+		justify-content: center;
+	}	
+	.tab-container-head__title{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 130%;
+		color: #252525;
+		margin-bottom: 30px;	
+	}	
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.bm-chairs-subcategories-block-content__attr{
+		flex-direction: column;
+	}	
+	.bm-chairs-subcategories-block-content__attr-height, .bm-chairs-subcategories-block-content__attr-wighth{
+		margin-bottom: 10px;
+	}	
+	.bm-chairs-subcategories{
+		flex-basis: 33% !important;
+	}		
+	.bm-chairs-subcategories-block-content__attr__text{
+		width: auto;
+		justify-content: center;
+	}
+	.tab-container-head__title{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 38px;
+		line-height: 130%;
+		color: #252525;
+		margin-bottom: 30px;	
+	}	
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1470px){
+	.bm-chairs-subcategories-block-content__attr{
+		flex-direction: column;
+	}	
+	
+	.bm-chairs-subcategories-block-content__attr-height, .bm-chairs-subcategories-block-content__attr-wighth{
+		margin-bottom: 10px;
+	}	
+	.bm-chairs-subcategories-block-content__attr__text{
+		width: auto;
+		justify-content: center;
+	}	
+	.tab-container-head__title{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 38px;
+		line-height: 130%;
+		color: #252525;
+		margin-bottom: 30px;	
+	}	
+}
+.tab-container-head{text-align: center;}
+
+.bm-post-test{
+	max-width: initial !important;
+}
+
+.bm-chairs-subcategories{flex-basis: 25%;}
+/*.bm-product-arvhive-container-main{flex-basis: unset; padding-left: 0;}*/
